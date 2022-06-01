@@ -1,9 +1,9 @@
-
+import TimerForm from "./components/TimerForm/TimerForm";
 
 function App() {
   return (
-    <div className="">
-      <h1>Hello World</h1>
+    <div className="h-screen bg-slate-200 flex flex-col items-center">
+      <TimerForm />
     </div>
   );
 }
